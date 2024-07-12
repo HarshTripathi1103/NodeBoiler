@@ -4,13 +4,17 @@ ServerBoiler is a lightweight npm package that simplifies the process of creatin
 
 # Installation
 You can install ServerBoiler using npm:
+```
 npm install serverboiler
+```
 
 # Usage
 Import the serverboiler function from the package:
 import { serverboiler } from "serverboiler";
+```
 const myPort = 4000; // Set your preferred port
 serverboiler(myPort);
+```
 
 
 Your Node.js HTTP server will now be running on the specified port. You can customize the server logic within the serverboiler function.Hope this package helps you for ur node js project.
